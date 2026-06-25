@@ -53,7 +53,10 @@
     body { background:#fff; padding:0; font-size:12.5px; }
     .page { box-shadow:none; max-width:none; padding:0; }
     .backlink { display:none; }
-    ol.steps > li, .step-fig, .eyepair, .leds, .warn, figure { page-break-inside:avoid; }
+    h1.title, .subtitle, .lead { break-after:avoid; page-break-after:avoid; }
+    ol.steps > li, .step-fig, .eyepair, .eyepair figure, .leds, .warn, figure, img {
+      break-inside:avoid; page-break-inside:avoid;
+    }
   }
 </style>
 </head>
