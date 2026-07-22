@@ -88,30 +88,6 @@
       break-inside:avoid; page-break-inside:avoid;
     }
   }
-
-  /* === גרסה מוגדלת === */
-  body { font-size:16.5px; }
-  h1.title { font-size:31px; }
-  .subtitle { font-size:18px; }
-  @media print {
-    body { font-size:13.5px; line-height:1.44; }
-    h1.title { font-size:25px; }
-    .subtitle { font-size:15.5px; }
-    .lead { font-size:12.5px; }
-    ol.steps > li::before { width:25px; height:25px; font-size:14px; top:7px; }
-    .eyepair figcaption { font-size:13.5px; }
-    .leds .cap { font-size:13.5px; }
-  }
-
-  @media print {
-    ol.steps > li.readahead { break-after:auto; page-break-after:auto; }
-    .readbox p.pageturn { display:none; }
-    .fig-guides img { max-width:460px; }
-    .fig-step5 img  { max-width:490px; }
-    .fig-feed img   { max-width:460px; }
-    .eyepair img { max-width:250px; }
-    .leds img { height:205px; }
-  }
 </style>
 </head>
 <body>
